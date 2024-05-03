@@ -1,0 +1,15 @@
+{
+  "Navigation": {
+    "recipies": "Recipies",
+    "meals": "My meals",
+    "logout": "Logout"
+  },
+  "Common": {
+    "login": "Login",
+    "register": "Register",
+    "today": "Today"
+  },
+  "Dish": {
+    "pageTitle": "Recipies by dish type"
+  }
+}

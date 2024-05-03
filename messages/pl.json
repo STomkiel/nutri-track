@@ -1,0 +1,15 @@
+{
+  "Navigation": {
+    "recipies": "Przepisy",
+    "meals": "Moje posiłki",
+    "logout": "Wyloguj się"
+  },
+  "Common": {
+    "login": "Zaloguj się",
+    "register": "Zarejestruj się",
+    "today": "Dzisiaj"
+  },
+  "Dish": {
+    "pageTitle": "Przepisy według typu dania"
+  }
+}

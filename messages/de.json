@@ -1,0 +1,15 @@
+{
+  "Navigation": {
+    "recipies": "Rezepte",
+    "meals": "Meine Mahlzeiten",
+    "logout": "Abmelden"
+  },
+  "Common": {
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "today": "Heute"
+  },
+  "Dish": {
+    "pageTitle": "Rezepte nach Gerichtstyp"
+  }
+}
