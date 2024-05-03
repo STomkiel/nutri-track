@@ -7,10 +7,15 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
-import { formatDate } from '../../../utils/date';
+import { formatDate } from '../../../../utils/date';
+import { useTranslations } from 'next-intl';
+
+const namespace = 'Common';
 
 const MealPanel = () => {
   const [currentData, setCurrentData] = useState(0);
+
+  const t = useTranslations(namespace);
 
   const handleDayChange = async (day: number) => {
     setCurrentData(day);
@@ -30,7 +35,7 @@ const MealPanel = () => {
               <IconButton onClick={() => handleDayChange(currentData - 1)}>
                 <ArrowBackIosIcon />
               </IconButton>
-              <Button onClick={() => handleDayChange(0)}>TODAY</Button>
+              <Button onClick={() => handleDayChange(0)}>{t('today')}</Button>
               <IconButton
                 onClick={() => handleDayChange(currentData + 1)}
                 disabled={currentData === 0}
