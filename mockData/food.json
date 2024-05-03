@@ -1,0 +1,281 @@
+{
+  "dishes": [
+    {
+      "name_id": "Classic Caesar Salad",
+      "type_id": "Salad",
+      "description": "A traditional Caesar salad featuring crisp romaine lettuce, Parmesan cheese, and crunchy croutons, tossed in creamy Caesar dressing.",
+      "img_src": "/img/Classic-Caesar-Salad.jpg",
+      "ingredients": [
+        "Romaine lettuce",
+        "Parmesan cheese",
+        "Croutons",
+        "Caesar dressing"
+      ],
+      "macro": {
+        "fat": 18,
+        "protein": 8,
+        "carbs": 20
+      },
+      "instruction": [
+        "1. Wash and chop romaine lettuce.",
+        "2. Toss lettuce with grated Parmesan cheese and croutons.",
+        "3. Drizzle Caesar dressing over the salad.",
+        "4. Toss until evenly coated and serve."
+      ]
+    },
+    {
+      "name_id": "Margherita Pizza",
+      "type_id": "Pizza",
+      "description": "A classic Margherita pizza topped with fresh tomato sauce, mozzarella cheese, and basil leaves on a thin crust.",
+      "img_src": "/img/Margherita-Pizza.jpg",
+      "ingredients": [
+        "Pizza dough",
+        "Tomato sauce",
+        "Mozzarella cheese",
+        "Basil leaves"
+      ],
+      "macro": {
+        "fat": 12,
+        "protein": 14,
+        "carbs": 40
+      },
+      "instruction": [
+        "1. Roll out pizza dough into a thin crust.",
+        "2. Spread tomato sauce evenly over the dough.",
+        "3. Sprinkle shredded mozzarella cheese over the sauce.",
+        "4. Arrange fresh basil leaves on top.",
+        "5. Bake in a preheated oven until crust is golden and cheese is bubbly."
+      ]
+    },
+    {
+      "name_id": "Minestrone Soup",
+      "type_id": "Soup",
+      "description": "A hearty Minestrone soup loaded with vegetables, beans, pasta, and flavorful broth.",
+      "img_src": "/img/Minestrone-Soup.jpg",
+      "ingredients": [
+        "Vegetable broth",
+        "Tomatoes",
+        "Carrots",
+        "Celery",
+        "Onion",
+        "Green beans",
+        "Kidney beans",
+        "Pasta",
+        "Italian herbs"
+      ],
+      "macro": {
+        "fat": 5,
+        "protein": 8,
+        "carbs": 35
+      },
+      "instruction": [
+        "1. In a large pot, sauté onions, carrots, and celery until softened.",
+        "2. Add tomatoes, vegetable broth, and Italian herbs to the pot.",
+        "3. Bring to a boil, then reduce heat and simmer for 20 minutes.",
+        "4. Add pasta, green beans, and kidney beans to the pot and cook until pasta is tender.",
+        "5. Season with salt and pepper to taste and serve hot."
+      ]
+    },
+    {
+      "name_id": "Chocolate Chip Cookies",
+      "type_id": "Cookie",
+      "description": "Delicious homemade chocolate chip cookies with a soft and chewy texture, filled with gooey chocolate chips.",
+      "img_src": "/img/Chocolate-Chip-Cookies.jpg",
+      "ingredients": [
+        "All-purpose flour",
+        "Butter",
+        "Brown sugar",
+        "White sugar",
+        "Eggs",
+        "Vanilla extract",
+        "Baking soda",
+        "Salt",
+        "Chocolate chips"
+      ],
+      "macro": {
+        "fat": 9,
+        "protein": 2,
+        "carbs": 25
+      },
+      "instruction": [
+        "1. Preheat oven to 350°F (175°C) and line a baking sheet with parchment paper.",
+        "2. In a large bowl, cream together butter, brown sugar, and white sugar until smooth.",
+        "3. Beat in eggs one at a time, then stir in vanilla extract.",
+        "4. Combine flour, baking soda, and salt; gradually add to the creamed mixture.",
+        "5. Stir in chocolate chips.",
+        "6. Drop by rounded spoonfuls onto the prepared baking sheet.",
+        "7. Bake for 10 to 12 minutes or until edges are golden brown.",
+        "8. Allow cookies to cool on baking sheet for 5 minutes before transferring to a wire rack to cool completely."
+      ]
+    },
+    {
+      "name_id": "Caprese Salad",
+      "type_id": "Salad",
+      "description": "A classic Italian salad featuring ripe tomatoes, fresh mozzarella cheese, and fragrant basil leaves, drizzled with balsamic glaze and olive oil.",
+      "img_src": "/img/Caprese-Salad.jpg",
+      "ingredients": [
+        "Tomatoes",
+        "Fresh mozzarella cheese",
+        "Basil leaves",
+        "Balsamic glaze",
+        "Extra virgin olive oil"
+      ],
+      "macro": {
+        "fat": 15,
+        "protein": 10,
+        "carbs": 5
+      },
+      "instruction": [
+        "1. Slice tomatoes and mozzarella cheese into rounds.",
+        "2. Arrange tomato and mozzarella slices on a serving platter, alternating with basil leaves.",
+        "3. Drizzle with balsamic glaze and olive oil.",
+        "4. Season with salt and pepper, if desired, and serve."
+      ]
+    },
+    {
+      "name_id": "Tomato Basil Soup",
+      "type_id": "Soup",
+      "description": "A comforting tomato basil soup made with ripe tomatoes, fresh basil, and a hint of cream for richness.",
+      "img_src": "/img/Tomato-Basil-Soup.jpg",
+      "ingredients": [
+        "Ripe tomatoes",
+        "Fresh basil",
+        "Onion",
+        "Garlic",
+        "Vegetable broth",
+        "Heavy cream",
+        "Salt",
+        "Pepper"
+      ],
+      "macro": {
+        "fat": 10,
+        "protein": 4,
+        "carbs": 20
+      },
+      "instruction": [
+        "1. Heat olive oil in a large pot over medium heat.",
+        "2. Add chopped onions and garlic; cook until softened.",
+        "3. Add chopped tomatoes and cook until they begin to break down.",
+        "4. Stir in vegetable broth and simmer for 20 minutes.",
+        "5. Blend the soup until smooth using an immersion blender.",
+        "6. Stir in heavy cream, chopped basil, salt, and pepper.",
+        "7. Simmer for an additional 5 minutes, then serve hot."
+      ]
+    },
+    {
+      "name_id": "Oatmeal Raisin Cookies",
+      "type_id": "Cookie",
+      "description": "Soft and chewy oatmeal cookies studded with plump raisins and a hint of cinnamon, perfect for a comforting treat.",
+      "img_src": "/img/Oatmeal-Raisin-Cookies.jpg",
+      "ingredients": [
+        "Old-fashioned oats",
+        "All-purpose flour",
+        "Butter",
+        "Brown sugar",
+        "White sugar",
+        "Eggs",
+        "Vanilla extract",
+        "Baking soda",
+        "Cinnamon",
+        "Raisins"
+      ],
+      "macro": {
+        "fat": 6,
+        "protein": 3,
+        "carbs": 25
+      },
+      "instruction": [
+        "1. Preheat oven to 350°F (175°C) and line a baking sheet with parchment paper.",
+        "2. In a large bowl, cream together butter, brown sugar, and white sugar until smooth.",
+        "3. Beat in eggs one at a time, then stir in vanilla extract.",
+        "4. Combine flour, oats, baking soda, cinnamon, and salt; gradually add to the creamed mixture.",
+        "5. Stir in raisins.",
+        "6. Drop by rounded spoonfuls onto the prepared baking sheet.",
+        "7. Bake for 10 to 12 minutes or until edges are golden brown.",
+        "8. Allow cookies to cool on baking sheet for 5 minutes before transferring to a wire rack to cool completely."
+      ]
+    },
+    {
+      "name_id": "Greek Salad",
+      "type_id": "Salad",
+      "description": "A refreshing salad with crisp cucumbers, juicy tomatoes, briny Kalamata olives, tangy feta cheese, and red onions, dressed with lemon vinaigrette.",
+      "img_src": "/img/Greek-Salad.jpg",
+      "ingredients": [
+        "Cucumbers",
+        "Tomatoes",
+        "Kalamata olives",
+        "Feta cheese",
+        "Red onion",
+        "Lemon vinaigrette"
+      ],
+      "macro": {
+        "fat": 18,
+        "protein": 8,
+        "carbs": 15
+      },
+      "instruction": [
+        "1. Wash and chop cucumbers, tomatoes, and red onion.",
+        "2. Toss together with Kalamata olives and crumbled feta cheese.",
+        "3. Drizzle with lemon vinaigrette and toss to coat evenly.",
+        "4. Serve immediately."
+      ]
+    },
+    {
+      "name_id": "Pepperoni Pizza",
+      "type_id": "Pizza",
+      "description": "A classic pepperoni pizza topped with tomato sauce, mozzarella cheese, and slices of pepperoni on a crispy crust.",
+      "img_src": "/img/Pepperoni-Pizza.jpg",
+      "ingredients": [
+        "Pizza dough",
+        "Tomato sauce",
+        "Mozzarella cheese",
+        "Pepperoni"
+      ],
+      "macro": {
+        "fat": 20,
+        "protein": 15,
+        "carbs": 35
+      },
+      "instruction": [
+        "1. Preheat oven to 450°F (230°C) and grease a pizza pan.",
+        "2. Roll out pizza dough into desired shape and thickness.",
+        "3. Spread tomato sauce evenly over the dough.",
+        "4. Sprinkle shredded mozzarella cheese over the sauce.",
+        "5. Arrange pepperoni slices on top of the cheese.",
+        "6. Bake in preheated oven for 12-15 minutes or until crust is golden brown and cheese is bubbly."
+      ]
+    },
+    {
+      "name_id": "Chicken Noodle Soup",
+      "type_id": "Soup",
+      "description": "A comforting chicken noodle soup made with tender chicken, egg noodles, carrots, celery, and onions in a flavorful broth. asd sa as d as dsad as dsa d as ds ad asd as das dsa d sa dsa d",
+      "img_src": "/img/Chicken-Noodle-Soup.jpg",
+      "ingredients": [
+        "Chicken broth",
+        "Chicken breast",
+        "Egg noodles",
+        "Carrots",
+        "Celery",
+        "Onion",
+        "Garlic",
+        "Thyme",
+        "Bay leaf"
+      ],
+      "macro": {
+        "fat": 5,
+        "protein": 18,
+        "carbs": 20
+      },
+      "instruction": [
+        "1. In a large pot, heat olive oil over medium heat.",
+        "2. Add chopped onions, carrots, and celery; cook until softened.",
+        "3. Add minced garlic and cook until fragrant.",
+        "4. Pour in chicken broth and add chicken breast, thyme, and bay leaf.",
+        "5. Simmer until chicken is cooked through, then remove chicken and shred it.",
+        "6. Return shredded chicken to the pot and add egg noodles.",
+        "7. Cook until noodles are tender, then season with salt and pepper to taste.",
+        "8. Serve hot."
+      ]
+    }
+  ]
+}
