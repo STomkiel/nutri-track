@@ -9,7 +9,12 @@
     "password": "Password",
     "login": "Login",
     "register": "Register",
-    "today": "Today"
+    "today": "Today",
+    "errorMessage": {
+      "incorrectEmail": "Incorrect email",
+      "emailTaken": "Email already in use",
+      "incorrectPassword": "Incorrect password"
+    }
   },
   "Dish": {
     "pageTitle": "Recipies by dish type"
