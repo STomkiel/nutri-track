@@ -5,6 +5,8 @@
     "logout": "Wyloguj się"
   },
   "Common": {
+    "email": "Email",
+    "password": "Hasło",
     "login": "Zaloguj się",
     "register": "Zarejestruj się",
     "today": "Dzisiaj"
