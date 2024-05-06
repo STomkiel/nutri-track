@@ -1,3 +1,6 @@
+import { db } from '@/db';
+import { authSchema } from '@/schemas/auth';
+import { compare } from 'bcrypt';
 import { AuthOptions } from 'next-auth';
 import CredentialsProvider from 'next-auth/providers/credentials';
 
@@ -27,11 +30,26 @@ export const authOptions: AuthOptions = {
         password: {},
       },
       async authorize(credentials) {
-        if (!credentials?.email || !credentials?.password) return null;
+        const parse = authSchema.safeParse(credentials);
+        if (!parse.success) {
+          return null;
+        }
+        const { email, password } = parse.data;
+        const response = await db.user.findUnique({
+          where: {
+            email,
+          },
+        });
+        if (!response) return null;
+        const passwordCorrect = await compare(password, response.password);
 
-        return {
-          id: '',
-        };
+        if (passwordCorrect) {
+          return {
+            id: response.id,
+            email,
+          };
+        }
+        return null;
       },
     }),
   ],
