@@ -4,7 +4,7 @@ const NavButton = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => {
   return (
     <button
       {...props}
-      className={`bg-primary hover:bg-secondary mx-1 rounded border px-4 py-2 font-semibold hover:border-transparent hover:text-white`}
+      className={`mx-1 rounded border bg-primary px-4 py-2 font-semibold text-white hover:border-transparent hover:bg-secondary hover:text-white`}
     />
   );
 };
