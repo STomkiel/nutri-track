@@ -7,11 +7,11 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
 model User {
   id          String  @id @default(cuid())
   email       String? @unique
   password    String
+  meals       Meal[]
 }
 
 model DishType {
@@ -31,4 +31,19 @@ model Dish {
   protein     Decimal
   carbs       Decimal
   instruction String[]
+  meals       Meal[]
 }
+
+model Meal {
+  id          String      @id @default(cuid())
+  date        DateTime    @default(now())
+  user_id     String     @default("Unknown")
+  user        User       @relation(fields: [user_id], references: [id])
+  dish_id     String?    
+  dish        Dish?      @relation(fields: [dish_id], references: [name_id])
+  name        String?
+  fat         Decimal?    
+  protein     Decimal?
+  carbs       Decimal?
+}
+
