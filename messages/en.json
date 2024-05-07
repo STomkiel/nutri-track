@@ -16,6 +16,19 @@
       "incorrectPassword": "Incorrect password"
     }
   },
+  "Meal": {
+    "calories": "Calories",
+    "cal": "Cal",
+    "protein": "Protein",
+    "carbs": "Carbs",
+    "fat": "Fat",
+    "addMeal": "Add meal",
+    "name": "Name",
+    "macro": "Macro",
+    "proteinGram": "Protein(gram)",
+    "carbsGram": "Carbs(gram)",
+    "fatGram": "Fat(gram)"
+  },
   "Dish": {
     "pageTitle": "Recipies by dish type"
   }

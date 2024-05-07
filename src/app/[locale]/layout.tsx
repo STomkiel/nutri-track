@@ -30,7 +30,7 @@ export default async function RootLayout({
           <NextIntlClientProvider messages={messages}>
             <Header />
             <main
-              className={`bg-background flex min-h-screen flex-col items-center justify-between p-12`}
+              className={`flex min-h-screen flex-col items-center justify-between bg-background p-12`}
             >
               {children}
             </main>

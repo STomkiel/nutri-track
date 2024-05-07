@@ -9,7 +9,7 @@ const Header = async () => {
   const session = await getServerSession();
 
   return (
-    <div className={`bg-navbackground sticky top-0 z-50 shadow-md`}>
+    <div className={`sticky top-0 z-50 bg-navbackground shadow-md`}>
       <nav className="flex flex-wrap justify-between p-2">
         <div className="flex items-center justify-center">
           <Link href="/">
