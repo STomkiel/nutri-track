@@ -1,11 +1,14 @@
 import React from 'react';
 import MealPanel from './MealPanel';
+import { getMealsData } from '@/actions';
 
-const DietPage = () => {
+const DietPage = async () => {
+  const { meals, chartData } = await getMealsData();
+
   return (
     <div>
-      <div className="min-w-[580px]">
-        <MealPanel />
+      <div className=" min-w-[580px]">
+        <MealPanel meals={meals} chartData={chartData} />
       </div>
     </div>
   );
