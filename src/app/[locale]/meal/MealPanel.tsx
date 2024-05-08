@@ -11,8 +11,8 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import { useTranslations } from 'next-intl';
 import MealChart from '@/app/components/mealChart/MealChart';
-import FoodListItem from '@/app/components/foodListItem/FoodListItem';
 import AddMealModal from '@/app/components/addMealModal/AddMealModal';
+import FoodListItem from '@/app/components/foodListItem/FoodListItem';
 
 type Meal = {
   id: string;

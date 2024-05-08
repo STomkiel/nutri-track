@@ -10,6 +10,7 @@ import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import Macros from '../macros/Macros';
 import Link from 'next/link';
+import DeleteMealModal from '../deleteMealModal/DeleteMealModal';
 import { useTranslations } from 'next-intl';
 
 interface MealProps {
@@ -55,6 +56,11 @@ const FoodListItem = ({
                 </Tooltip>
               </Link>
             )}
+            <DeleteMealModal
+              id={id}
+              day={day}
+              getCurrentMeals={getCurrentMeals}
+            />
             <ExpandButton
               expand={expanded}
               onClick={() => setExpanded(!expanded)}
