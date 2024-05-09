@@ -1,17 +1,16 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import PageTitle from '@/app/components/pageTitle/PageTitle';
+import { getDishesByType } from '@/actions';
 import DishCard from '@/app/components/dishCard/DishCard';
-import data from '../../../../../mockData/food.json';
-
+import PageTitle from '@/app/components/pageTitle/PageTitle';
 interface FoodTypePageProps {
   params: { type: string };
 }
 
-const FoodTypePage = ({ params }: FoodTypePageProps) => {
+const FoodTypePage = async ({ params }: FoodTypePageProps) => {
   const { type } = params;
-  const dishes = data.dishes.filter((dish) => dish.type_id === type);
+  const dishes = await getDishesByType(type);
   return (
     <Box>
       <PageTitle text={type} />

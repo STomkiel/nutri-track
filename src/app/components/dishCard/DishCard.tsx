@@ -3,9 +3,10 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import { CardActionArea, Box } from '@mui/material';
+import { CardActionArea, CardActions, Box } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
+import AddDish from '../addDish/AddDish';
 
 interface DishCardProps {
   nameId: string;
@@ -43,6 +44,11 @@ const DishCard = ({ nameId, typeId, description, imgSrc }: DishCardProps) => {
           </CardContent>
         </CardActionArea>
       </Link>
+      <CardActions>
+        <Box className="flex w-full justify-end">
+          <AddDish nameId={nameId} />
+        </Box>
+      </CardActions>
     </Card>
   );
 };
