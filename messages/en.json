@@ -27,9 +27,24 @@
     "macro": "Macro",
     "proteinGram": "Protein(gram)",
     "carbsGram": "Carbs(gram)",
-    "fatGram": "Fat(gram)"
+    "fatGram": "Fat(gram)",
+    "add": "Add",
+    "seeRecipe": "See recipe",
+    "remove": "Remove from list",
+    "confirmationTitle": "Are you sure you want to delete this item?",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "errorMessage": {
+      "name": "Name need to have atleast 5 characters",
+      "required": "Field required",
+      "invalidType": "Invalid type, expected a number"
+    }
   },
   "Dish": {
-    "pageTitle": "Recipies by dish type"
+    "pageTitle": "Recipies by dish type",
+    "add": "Add to today food list",
+    "macro": "Macro data",
+    "ingriedients": "Ingredients",
+    "instruction": "Instruction"
   }
 }

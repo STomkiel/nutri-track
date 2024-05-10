@@ -9,9 +9,42 @@
     "password": "Passwort",
     "login": "Anmelden",
     "register": "Registrieren",
-    "today": "Heute"
+    "today": "Heute",
+    "errorMessage": {
+      "incorrectEmail": "Falsche E-Mail",
+      "emailTaken": "E-Mail bereits verwendet",
+      "incorrectPassword": "Falsches Passwort"
+    }
+  },
+  "Meal": {
+    "calories": "Kalorien",
+    "cal": "Kal",
+    "protein": "Eiweiß",
+    "carbs": "Kohlenhydrate",
+    "fat": "Fett",
+    "addMeal": "Mahlzeit hinzufügen",
+    "name": "Name",
+    "macro": "Makro",
+    "proteinGram": "Eiweiß (Gramm)",
+    "carbsGram": "Kohlenhydrate (Gramm)",
+    "fatGram": "Fett (Gramm)",
+    "add": "Hinzufügen",
+    "seeRecipe": "Rezept ansehen",
+    "remove": "Aus der Liste entfernen",
+    "confirmationTitle": "Sind Sie sicher, dass Sie dieses Element löschen möchten?",
+    "confirm": "Bestätigen",
+    "cancel": "Abbrechen",
+    "errorMessage": {
+      "name": "Der Name muss mindestens 5 Zeichen lang sein",
+      "required": "Feld erforderlich",
+      "invalidType": "Ungültiger Typ, eine Zahl wurde erwartet"
+    }
   },
   "Dish": {
-    "pageTitle": "Rezepte nach Gerichtstyp"
+    "pageTitle": "Rezepte nach Gerichtstyp",
+    "add": "Zur heutigen Lebensmittelliste hinzufügen",
+    "macro": "Makrodaten",
+    "ingriedients": "Zutaten",
+    "instruction": "Anleitung"
   }
 }
