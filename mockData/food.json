@@ -1,10 +1,10 @@
 {
   "dishes": [
     {
-      "name_id": "Classic Caesar Salad",
-      "type_id": "Salad",
+      "name": "Classic Caesar Salad",
+      "foodType": "Salad",
       "description": "A traditional Caesar salad featuring crisp romaine lettuce, Parmesan cheese, and crunchy croutons, tossed in creamy Caesar dressing.",
-      "img_src": "/img/Classic-Caesar-Salad.jpg",
+      "imgSrc": "/img/Classic-Caesar-Salad.jpg",
       "ingredients": [
         "Romaine lettuce",
         "Parmesan cheese",
@@ -24,10 +24,10 @@
       ]
     },
     {
-      "name_id": "Margherita Pizza",
-      "type_id": "Pizza",
+      "name": "Margherita Pizza",
+      "foodType": "Pizza",
       "description": "A classic Margherita pizza topped with fresh tomato sauce, mozzarella cheese, and basil leaves on a thin crust.",
-      "img_src": "/img/Margherita-Pizza.jpg",
+      "imgSrc": "/img/Margherita-Pizza.jpg",
       "ingredients": [
         "Pizza dough",
         "Tomato sauce",
@@ -48,10 +48,10 @@
       ]
     },
     {
-      "name_id": "Minestrone Soup",
-      "type_id": "Soup",
+      "name": "Minestrone Soup",
+      "foodType": "Soup",
       "description": "A hearty Minestrone soup loaded with vegetables, beans, pasta, and flavorful broth.",
-      "img_src": "/img/Minestrone-Soup.jpg",
+      "imgSrc": "/img/Minestrone-Soup.jpg",
       "ingredients": [
         "Vegetable broth",
         "Tomatoes",
@@ -77,10 +77,10 @@
       ]
     },
     {
-      "name_id": "Chocolate Chip Cookies",
-      "type_id": "Cookie",
+      "name": "Chocolate Chip Cookies",
+      "foodType": "Cookie",
       "description": "Delicious homemade chocolate chip cookies with a soft and chewy texture, filled with gooey chocolate chips.",
-      "img_src": "/img/Chocolate-Chip-Cookies.jpg",
+      "imgSrc": "/img/Chocolate-Chip-Cookies.jpg",
       "ingredients": [
         "All-purpose flour",
         "Butter",
@@ -109,10 +109,10 @@
       ]
     },
     {
-      "name_id": "Caprese Salad",
-      "type_id": "Salad",
+      "name": "Caprese Salad",
+      "foodType": "Salad",
       "description": "A classic Italian salad featuring ripe tomatoes, fresh mozzarella cheese, and fragrant basil leaves, drizzled with balsamic glaze and olive oil.",
-      "img_src": "/img/Caprese-Salad.jpg",
+      "imgSrc": "/img/Caprese-Salad.jpg",
       "ingredients": [
         "Tomatoes",
         "Fresh mozzarella cheese",
@@ -133,10 +133,10 @@
       ]
     },
     {
-      "name_id": "Tomato Basil Soup",
-      "type_id": "Soup",
+      "name": "Tomato Basil Soup",
+      "foodType": "Soup",
       "description": "A comforting tomato basil soup made with ripe tomatoes, fresh basil, and a hint of cream for richness.",
-      "img_src": "/img/Tomato-Basil-Soup.jpg",
+      "imgSrc": "/img/Tomato-Basil-Soup.jpg",
       "ingredients": [
         "Ripe tomatoes",
         "Fresh basil",
@@ -163,10 +163,10 @@
       ]
     },
     {
-      "name_id": "Oatmeal Raisin Cookies",
-      "type_id": "Cookie",
+      "name": "Oatmeal Raisin Cookies",
+      "foodType": "Cookie",
       "description": "Soft and chewy oatmeal cookies studded with plump raisins and a hint of cinnamon, perfect for a comforting treat.",
-      "img_src": "/img/Oatmeal-Raisin-Cookies.jpg",
+      "imgSrc": "/img/Oatmeal-Raisin-Cookies.jpg",
       "ingredients": [
         "Old-fashioned oats",
         "All-purpose flour",
@@ -196,10 +196,10 @@
       ]
     },
     {
-      "name_id": "Greek Salad",
-      "type_id": "Salad",
+      "name": "Greek Salad",
+      "foodType": "Salad",
       "description": "A refreshing salad with crisp cucumbers, juicy tomatoes, briny Kalamata olives, tangy feta cheese, and red onions, dressed with lemon vinaigrette.",
-      "img_src": "/img/Greek-Salad.jpg",
+      "imgSrc": "/img/Greek-Salad.jpg",
       "ingredients": [
         "Cucumbers",
         "Tomatoes",
@@ -221,10 +221,10 @@
       ]
     },
     {
-      "name_id": "Pepperoni Pizza",
-      "type_id": "Pizza",
+      "name": "Pepperoni Pizza",
+      "foodType": "Pizza",
       "description": "A classic pepperoni pizza topped with tomato sauce, mozzarella cheese, and slices of pepperoni on a crispy crust.",
-      "img_src": "/img/Pepperoni-Pizza.jpg",
+      "imgSrc": "/img/Pepperoni-Pizza.jpg",
       "ingredients": [
         "Pizza dough",
         "Tomato sauce",
@@ -246,10 +246,10 @@
       ]
     },
     {
-      "name_id": "Chicken Noodle Soup",
-      "type_id": "Soup",
+      "name": "Chicken Noodle Soup",
+      "foodType": "Soup",
       "description": "A comforting chicken noodle soup made with tender chicken, egg noodles, carrots, celery, and onions in a flavorful broth. asd sa as d as dsad as dsa d as ds ad asd as das dsa d sa dsa d",
-      "img_src": "/img/Chicken-Noodle-Soup.jpg",
+      "imgSrc": "/img/Chicken-Noodle-Soup.jpg",
       "ingredients": [
         "Chicken broth",
         "Chicken breast",

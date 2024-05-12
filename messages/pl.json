@@ -1,50 +1,50 @@
 {
-  "Navigation": {
-    "recipies": "Przepisy",
-    "meals": "Moje posiłki",
-    "logout": "Wyloguj się"
-  },
-  "Common": {
-    "email": "Email",
-    "password": "Hasło",
-    "login": "Zaloguj się",
-    "register": "Zarejestruj się",
-    "today": "Dzisiaj",
-    "errorMessage": {
-      "incorrectEmail": "Niepoprawny email",
-      "emailTaken": "Email jest już używany",
-      "incorrectPassword": "Niepoprawne hasło"
+    "Navigation": {
+        "recipies": "Przepisy",
+        "meals": "Moje posiłki",
+        "logout": "Wyloguj się"
+    },
+    "Common": {
+        "email": "Email",
+        "password": "Hasło",
+        "login": "Zaloguj się",
+        "register": "Zarejestruj się",
+        "today": "Dzisiaj",
+        "errorMessage": {
+            "incorrectEmail": "Niepoprawny email",
+            "emailTaken": "Email jest już używany",
+            "incorrectPassword": "Niepoprawne hasło"
+        }
+    },
+    "Meal": {
+        "calories": "Kalorie",
+        "cal": "Kal",
+        "protein": "Białko",
+        "carbs": "Węglowodany",
+        "fat": "Tłuszcz",
+        "addMeal": "Dodaj posiłek",
+        "name": "Nazwa",
+        "macro": "Makro",
+        "proteinGram": "Białko (gram)",
+        "carbsGram": "Węglowodany (gram)",
+        "fatGram": "Tłuszcz (gram)",
+        "add": "Dodaj",
+        "seeRecipe": "Zobacz przepis",
+        "remove": "Usuń z listy",
+        "confirmationTitle": "Czy na pewno chcesz usunąć ten element?",
+        "confirm": "Potwierdź",
+        "cancel": "Anuluj",
+        "errorMessage": {
+            "name": "Nazwa musi mieć co najmniej 5 znaków",
+            "required": "Pole wymagane",
+            "invalidType": "Nieprawidłowy typ, oczekiwano liczby"
+        }
+    },
+    "Dish": {
+        "pageTitle": "Przepisy według typu dania",
+        "add": "Dodaj do dzisiejszej listy posiłków",
+        "macro": "Dane makro",
+        "ingriedients": "Składniki",
+        "instruction": "Instrukcja"
     }
-  },
-  "Meal": {
-    "calories": "Kalorie",
-    "cal": "Kal",
-    "protein": "Białko",
-    "carbs": "Węglowodany",
-    "fat": "Tłuszcz",
-    "addMeal": "Dodaj posiłek",
-    "name": "Nazwa",
-    "macro": "Makro",
-    "proteinGram": "Białko (gram)",
-    "carbsGram": "Węglowodany (gram)",
-    "fatGram": "Tłuszcz (gram)",
-    "add": "Dodaj",
-    "seeRecipe": "Zobacz przepis",
-    "remove": "Usuń z listy",
-    "confirmationTitle": "Czy na pewno chcesz usunąć ten element?",
-    "confirm": "Potwierdź",
-    "cancel": "Anuluj",
-    "errorMessage": {
-      "name": "Nazwa musi mieć co najmniej 5 znaków",
-      "required": "Pole wymagane",
-      "invalidType": "Nieprawidłowy typ, oczekiwano liczby"
-    }
-  },
-  "Dish": {
-    "pageTitle": "Przepisy według typu dania",
-    "add": "Dodaj do dzisiejszej listy posiłków",
-    "macro": "Dane makro",
-    "ingriedients": "Składniki",
-    "instruction": "Instrukcja"
-  }
 }

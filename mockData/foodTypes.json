@@ -1,20 +1,20 @@
 {
   "types": [
     {
-      "name_id": "Soup",
-      "img_src": "/img/soup.jpg"
+      "foodType": "Soup",
+      "imgSrc": "/img/soup.jpg"
     },
     {
-      "name_id": "Pizza",
-      "img_src": "/img/pizza.jpg"
+      "foodType": "Pizza",
+      "imgSrc": "/img/pizza.jpg"
     },
     {
-      "name_id": "Cookie",
-      "img_src": "/img/cookie.jpg"
+      "foodType": "Cookie",
+      "imgSrc": "/img/cookie.jpg"
     },
     {
-      "name_id": "Salad",
-      "img_src": "/img/salad.jpg"
+      "foodType": "Salad",
+      "imgSrc": "/img/salad.jpg"
     }
   ]
 }

@@ -3,10 +3,10 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import Image from 'next/image';
+import Macros from '@/components/macros/Macros';
 import { getDishByName } from '@/actions';
-import Translation from '@/app/translation/Translation';
-import Macros from '@/app/components/macros/Macros';
-import AddDish from '@/app/components/addDish/AddDish';
+import AddDish from '@/components/addDish/AddDish';
+import Translation from '@/translation/Translation';
 
 const RecipePage = async ({
   params,

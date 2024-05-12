@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { getDishTypes } from '@/actions';
-import PageTitle from '../components/pageTitle/PageTitle';
-import Translation from '../translation/Translation';
-import DishTypeCard from '../components/dishTypeCard/DishTypeCard';
+import DishTypeCard from '@/components/dishTypeCard/DishTypeCard';
+import PageTitle from '@/components/pageTitle/PageTitle';
+import Translation from '@/translation/Translation';
 
 export default async function Home() {
   const foodTypes = await getDishTypes();
@@ -10,7 +10,7 @@ export default async function Home() {
     <div className="flex justify-center">
       <div>
         <PageTitle text={<Translation id={'pageTitle'} namespace="Dish" />} />
-        <div className="justify-center">
+        <div className="justify-center ">
           <div className="flex flex-wrap justify-center">
             {foodTypes.map((typeItem) => (
               <div key={typeItem.name_id} className="m-2">

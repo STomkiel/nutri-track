@@ -3,8 +3,8 @@ import { IconButton, Tooltip } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
 import { addDishToMeals } from '@/actions';
 import { getServerSession } from 'next-auth';
-import { authOptions } from '../../../../utils/authOptions';
-import Translation from '@/app/translation/Translation';
+import { authOptions } from '../../../utils/authOptions';
+import Translation from '@/translation/Translation';
 
 interface AddDishProps {
   nameId: string;

@@ -12,7 +12,7 @@ export const addMeal = async (formData: FormData, day: number) => {
       return;
     }
     const data = Object.fromEntries(formData.entries());
-    const parse = mealSchema((a) => a).safeParse(data);
+    const parse = mealSchema.safeParse(data);
     if (!parse.success) {
       return;
     }

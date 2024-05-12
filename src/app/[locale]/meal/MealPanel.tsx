@@ -1,18 +1,18 @@
 'use client';
 import React, { useState } from 'react';
+import FoodListItem from '../../../components/foodListItem/FoodListItem';
+import MealChart from '@/components/mealChart/MealChart';
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { getMealsData } from '@/actions';
+import AddMealModal from '@/components/addMealModal/AddMealModal';
 import Typography from '@mui/material/Typography';
 import { formatDate } from '../../../../utils/date';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import { useTranslations } from 'next-intl';
-import MealChart from '@/app/components/mealChart/MealChart';
-import AddMealModal from '@/app/components/addMealModal/AddMealModal';
-import FoodListItem from '@/app/components/foodListItem/FoodListItem';
 
 type Meal = {
   id: string;

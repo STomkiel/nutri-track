@@ -8,7 +8,7 @@ const DietPage = async () => {
   return (
     <div>
       <p className="text-3xl">My meals</p>
-      <div className="min-w-[580px]">
+      <div className=" min-w-[580px]">
         <MealPanel meals={meals} chartData={chartData} />
       </div>
     </div>

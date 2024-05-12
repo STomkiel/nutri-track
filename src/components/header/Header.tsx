@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
+import Logout from '@/components/logout/Logout';
 import { getServerSession } from 'next-auth';
 import NavButton from '../navButton/NavButton';
-import Translation from '@/app/translation/Translation';
-import Logout from '../logout/Logout';
+import Translation from '@/translation/Translation';
 
 const Header = async () => {
   const session = await getServerSession();

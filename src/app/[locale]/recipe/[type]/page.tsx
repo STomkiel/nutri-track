@@ -1,9 +1,10 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
+import DishCard from '@/components/dishCard/DishCard';
 import { getDishesByType } from '@/actions';
-import DishCard from '@/app/components/dishCard/DishCard';
-import PageTitle from '@/app/components/pageTitle/PageTitle';
+import PageTitle from '@/components/pageTitle/PageTitle';
+
 interface FoodTypePageProps {
   params: { type: string };
 }
